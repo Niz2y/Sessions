@@ -1,4 +1,4 @@
-These are just some things I want to talk about in general.
+If you are going to use `requests`, for fucks sake please use `requests.Session()`
 # Requests - Use sessions
 ```py
 import requests
@@ -6,6 +6,3 @@ import requests
 with requests.Session() as Session:
   Session.get("discord.com")
 ```
-
-# Async
-[Async isn't going to magically speed up your code.](https://calpaterson.com/async-python-is-not-faster.html)
