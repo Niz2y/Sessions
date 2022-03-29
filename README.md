@@ -1,4 +1,4 @@
-If you are going to use `requests`, for fucks sake please use `requests.Session()`
+If you are going to use requests, for fucks sake please use Sessions.
 # Sessions
 ```py
 import requests
