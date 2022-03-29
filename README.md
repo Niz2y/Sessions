@@ -1,5 +1,5 @@
 If you are going to use `requests`, for fucks sake please use `requests.Session()`
-# Requests - Use sessions
+# Sessions
 ```py
 import requests
 
